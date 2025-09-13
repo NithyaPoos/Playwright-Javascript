@@ -1,0 +1,18 @@
+{
+  "name": "playwrightframeworkfolder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@sanity/visual-editing": "^3.0.5"
+  }
+}

@@ -1,0 +1,12 @@
+ {
+    "loginPage":{
+        "validUsername":"twinnature99565@agentforce.com",
+         "validPassword":"nnnnnn",
+        "invalidUsername":"twiiii5@agentforce.com",
+         "invalidPassword":"nnnnnn",
+         "successMessage":"You have successfully logged in.",
+          "errorMessage":"Error: Please check your username and password. If you still can't log in, contact your Salesforce administrator."
+    },
+    "homePage":{}
+
+}
