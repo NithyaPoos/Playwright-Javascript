@@ -8,7 +8,7 @@ test('invlaidlogin test',async ({page})=>{
 
     //login page object
     const lp=new LoginPage(page);
-    await lp.launchApp();
+    await lp.launchApp("https://login.salesforce.com/");
     await lp.enterUsername(testdata.loginPage.validUsername);
     await lp.enterPassword(testdata.loginPage.invalidPassword);
     await lp.clickLogin();

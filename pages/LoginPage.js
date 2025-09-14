@@ -1,4 +1,12 @@
 import {BasePage} from "./BasePage.js";
+/*
+use default exports for page objects (LoginPage, DashboardPage)
+ because each file represents one page.
+
+ functions can also be exported as like class if needed .
+ use named exports for shared utilities like waitForElement,
+  generateTestData, or constants like BASE_URL
+ */
 export class LoginPage extends BasePage{
 constructor(page)
 {
@@ -20,6 +28,7 @@ await this.page.fill(this.passwordField,password);
 }
 async clickLogin()
 {
+    //await clickIfVisible(page, this.loginButton);
 //await page.waitForSelector(this.loginButton);
 await this.page.click(this.loginButton);
 }
@@ -35,4 +44,6 @@ async getErrorMessage(){
    return await this.page.textContent(this.errorMessage);
 }
 
+
+ 
 }
